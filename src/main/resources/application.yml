@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: carrosGrpc
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/teste
+    username: root
+    password: 171191
+jpa.default.properties.hibernate.hbm2ddl.auto: update
